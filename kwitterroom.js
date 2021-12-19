@@ -1,16 +1,13 @@
-//ADD YOUR FIREBASE LINKS HERE
 var firebaseConfig = {
-      apiKey: "AIzaSyD0YJpZ0U8vp1NPxvMooSr-9petcI_5K58",
-      authDomain: "kwitter-99abb.firebaseapp.com",
-      databaseURL: "https://kwitter-99abb-default-rtdb.firebaseio.com",
-      projectId: "kwitter-99abb",
-      storageBucket: "kwitter-99abb.appspot.com",
-      messagingSenderId: "215779754402",
-      appId: "1:215779754402:web:4faa23248b206b770372fb",
-      measurementId: "G-XDNGHRYX6Q"
+      apiKey: "AIzaSyDKiNAQI-1rkM92WNb4vrHSW4YBnqyZZRU",
+      authDomain: "kwitter-updated-ec89c.firebaseapp.com",
+      databaseURL: "https://kwitter-updated-ec89c-default-rtdb.firebaseio.com",
+      projectId: "kwitter-updated-ec89c",
+      storageBucket: "kwitter-updated-ec89c.appspot.com",
+      messagingSenderId: "851663655688",
+      appId: "1:851663655688:web:30704e8a24b02ecde392bd"
     };
     
-    // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
 username = localStorage.getItem("username");
 document.getElementById("user_name").innerHTML = "Welcome " + username + "!";
