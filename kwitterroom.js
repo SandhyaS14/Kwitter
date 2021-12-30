@@ -31,3 +31,15 @@ function getData() {firebase.database().ref("/").on('value', function(snapshot) 
       //End code
       });});}
 getData();
+
+function redirectToRoomName(name){
+      roomname = name;
+      localStorage.setItem("roomname", roomname);
+      window.location = "kwitter_page.html";
+} 
+
+function logout() {
+      localStorage.removeItem("username");
+      localStorage.removeItem("roomname");
+      window.location = "index.html";
+}
