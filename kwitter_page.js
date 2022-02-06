@@ -1,11 +1,11 @@
 var firebaseConfig = {
-      apiKey: "AIzaSyBAFUENsYGEM4gr0BOew7-ddIb8JwbfspU",
-      authDomain: "kwitter-updated-updated.firebaseapp.com",
-      databaseURL: "https://kwitter-updated-updated-default-rtdb.firebaseio.com",
-      projectId: "kwitter-updated-updated",
-      storageBucket: "kwitter-updated-updated.appspot.com",
-      messagingSenderId: "263127775997",
-      appId: "1:263127775997:web:d973f0e67242805ac19c94"
+      apiKey: "AIzaSyDxtk5NNzjZvLC7rgFXqLjZVVsZDurR1aU",
+      authDomain: "suggestions-b149f.firebaseapp.com",
+      databaseURL: "https://suggestions-b149f-default-rtdb.firebaseio.com",
+      projectId: "suggestions-b149f",
+      storageBucket: "suggestions-b149f.appspot.com",
+      messagingSenderId: "508596687905",
+      appId: "1:508596687905:web:5cd897201a48324b337f60"
     
     };
     
