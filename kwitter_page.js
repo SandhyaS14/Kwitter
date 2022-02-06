@@ -25,7 +25,7 @@ function getData() { firebase.database().ref("/"+room_name).on('value', function
       name1 = "<h3>" + message_data["name"] + "<img src='tick.png' class='user_tick'></h3>";
       message = "<h4 class='message_h4'>" + message_data["msg"] + "</h4>";
       like1 = ike_button ="<button class='btn btn-warning' id="+firebase_message_id+" value="+like+" onclick='updateLike(this.id)'>";
-      spanwithtag = "<span class='glyphicon glyphicon-thumbs-up'>Like:" + like + "</span></button><hr>";
+      spanwithtag = "<span class='glyphicon glyphicon-thumbs-up'>Done:" + like + "</span></button><hr>";
 
       row = name1 + message + like1 + spanwithtag;
       document.getElementById("output").innerHTML += row;
